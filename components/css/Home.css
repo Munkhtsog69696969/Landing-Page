@@ -1,0 +1,176 @@
+.backImage{
+    background-image: url("../images/backImage.svg");
+    background-size: cover;
+    z-index: -2;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.homeBox{
+    position: absolute;
+    align-items: center;
+    line-height: 100px;
+    padding: 20px;
+}
+
+.input{
+    vertical-align: middle;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.container2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    transition: 500ms;
+}
+
+.container2-black{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    transition: 500ms;
+}
+
+.box2{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.box2-texts{
+    margin: 20px;
+}
+
+.arrowRight{
+    color: #4DA0FD;
+    font-size: 20px;
+}
+
+.box2Image{
+    position: relative;
+}
+
+.absoluteImg{
+    position: absolute;
+    left: -130px;
+    top: 50px;
+}
+
+.absoluteImg1{
+    position: absolute;
+    left: 40px;
+    top: 500px;
+} 
+
+.container3{
+    /* border: 1px solid blue; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 500ms;
+}
+.container3-black{
+    /* border: 1px solid blue; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    transition: 500ms;
+}
+
+.profileContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.star{
+    color: orange;
+}
+
+.profile{
+    width: 300px;
+    min-width: 300px;
+    height: 350px;
+    min-height: 350px;
+    border: 1px solid black;
+    padding: 20px;
+    word-break: break-all;
+    margin: 10px;
+}
+.profile-dark{
+    width: 300px;
+    min-width: 300px;
+    height: 350px;
+    min-height: 350px;
+    border: 1px solid white;
+    padding: 20px;
+    word-break: break-all;
+    margin: 10px;
+
+}
+
+.profileTexts{
+    height: 220px;
+}
+
+.text-black{
+    color: white;
+}
+.text-white{
+    color: black;
+}
+.big2text{
+    font-weight: bold;
+    font-size: 50px;
+}
+.big2text-black{
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+}
+
+
+.blueLink{
+    display: inline;
+    color: #4DA0FD;
+}
+
+.container2p5{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+
+.container2p5-black{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid blue; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}

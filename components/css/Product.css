@@ -1,0 +1,28 @@
+.Product{
+    /* background-color: grey; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Product-black{
+    /* background-color: grey; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.product-text{
+    position: absolute;
+    font-size: 40px;
+}
+.product-text-black{
+    position: absolute;
+    font-size: 40px;
+    color:white;
+}
